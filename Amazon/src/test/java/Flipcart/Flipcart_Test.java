@@ -23,7 +23,6 @@ public class Flipcart_Test {
 		Login login = new Login (driver);
 		login.UI();
 		login.Password();
-		login.Submit();
 		
 		Cart Cr = new Cart (driver);
 		Cr.cart();
